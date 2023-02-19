@@ -1,3 +1,5 @@
+package Practicas;
+
 import javax.swing.*;
 
 import javax.swing.*;
@@ -85,10 +87,10 @@ public class FrmArrayListAmigos extends JFrame {
                     }
                 }
         );// fin btnAgregar.addActionListener
-    btnBuscar.addActionListener(
+        btnBuscar.addActionListener(
                 new ActionListener() {
                     @Override
-                public void actionPerformed(ActionEvent event) {
+                    public void actionPerformed(ActionEvent event) {
                         btnBuscarActionPerformed(event);
                     }
                 }
@@ -154,10 +156,10 @@ public class FrmArrayListAmigos extends JFrame {
     }
 
 
-// Se declara el metodo main para ejecutar el formulario
-public static void main(String[] args) {
-new FrmArrayListAmigos().setVisible(true);
-}
+    // Se declara el metodo main para ejecutar el formulario
+    public static void main(String[] args) {
+        new FrmArrayListAmigos().setVisible(true);
+    }
 
     // Se declaran las controles que llevara el formulario private Jlist<String> JListAmigos;
     private JLabel lblTitulo;
