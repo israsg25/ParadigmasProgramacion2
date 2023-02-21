@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca5fbc89-2775-4c6b-99db-44984e71c4b2" name="Changes" comment="Acabados" />
+    <list default="true" id="ca5fbc89-2775-4c6b-99db-44984e71c4b2" name="Changes" comment="Practica Amigos">
+      <change afterPath="$PROJECT_DIR$/src/Practicas/Actividades/LenguajesDeProgramacionMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practicas/Actividades/PruebaList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practicas/Actividades/UsandoToArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practicas/FrmArrayListCelulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicas/FrmArrayListCelulares.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,13 +34,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.LenguajesDeProgramacionMenu">
+    <configuration name="LenguajesDeProgramacionMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practicas.Actividades.LenguajesDeProgramacionMenu" />
+      <module name="ParadigmasProgramacionII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicas.Actividades.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PruebaList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practicas.Actividades.PruebaList" />
+      <module name="ParadigmasProgramacionII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicas.Actividades.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsandoToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practicas.Actividades.UsandoToArray" />
+      <module name="ParadigmasProgramacionII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicas.Actividades.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LenguajesDeProgramacionMenu" />
+        <item itemvalue="Application.UsandoToArray" />
+        <item itemvalue="Application.PruebaList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,8 +97,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676829107674</updated>
-      <workItem from="1676829109202" duration="6910000" />
+      <workItem from="1676829109202" duration="10153000" />
+      <workItem from="1676902746905" duration="215000" />
+      <workItem from="1676907374880" duration="2971000" />
     </task>
+    <task id="LOCAL-00001" summary="Practica Amigos">
+      <created>1676848096390</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676848096390</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Acabados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acabados" />
+    <MESSAGE value="Practica Amigos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Amigos" />
   </component>
 </project>
