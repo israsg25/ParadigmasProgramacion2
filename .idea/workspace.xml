@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca5fbc89-2775-4c6b-99db-44984e71c4b2" name="Changes" comment="Practica Amigos">
-      <change afterPath="$PROJECT_DIR$/src/Practicas/Actividades/LenguajesDeProgramacionMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practicas/Actividades/PruebaList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practicas/Actividades/UsandoToArray.java" afterDir="false" />
+    <list default="true" id="ca5fbc89-2775-4c6b-99db-44984e71c4b2" name="Changes" comment="Practicas">
+      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorApellido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorEdad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorEdadNombre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorNombre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorNombreEdad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apuntes/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empleado/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empleado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empleado/OrdenarPorDepartamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empleado/OrdenarPorDepartamentoYPorPuesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empleado/OrdenarPorDepartamentoYPorSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empleado/OrdenarPorSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlujosArreglos/OperacionesIntStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metodo_Shuffle/Carta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metodo_Shuffle/FrmCartas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metodo_Shuffle/MazoDeCartas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Metodos_Numericos/Ejercicio_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programacion_Declarativa/ConteoProgramacionDeclarativa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programacion_Declarativa/ConteoProgramacionImperativa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programacion_Declarativa/MostrarArregloImperativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea/CalificacionesDoubleStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea/LenguajesDeProgramacionMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea/ProcesarEmpleados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea/VentasSemanales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prueba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practicas/FrmArrayListCelulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicas/FrmArrayListCelulares.java" afterDir="false" />
     </list>
@@ -16,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,16 +64,25 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LenguajesDeProgramacionMenu">
-    <configuration name="LenguajesDeProgramacionMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practicas.Actividades.LenguajesDeProgramacionMenu" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\edchi\IdeaProjects\ParadigmasProgramacionII\src\Metodo_Shuffle" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ComparadorPersona" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProcesarEmpleados">
+    <configuration name="CalificacionesDoubleStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tarea.CalificacionesDoubleStream" />
       <module name="ParadigmasProgramacionII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practicas.Actividades.*" />
+          <option name="PATTERN" value="Tarea.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PruebaList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practicas.Actividades.PruebaList" />
+    <configuration name="ConteoProgramacionDeclarativa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programacion_Declarativa.ConteoProgramacionDeclarativa" />
       <module name="ParadigmasProgramacionII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practicas.Actividades.*" />
+          <option name="PATTERN" value="Programacion_Declarativa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +103,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsandoToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practicas.Actividades.UsandoToArray" />
+    <configuration name="OperacionesIntStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlujosArreglos.OperacionesIntStream" />
       <module name="ParadigmasProgramacionII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practicas.Actividades.*" />
+          <option name="PATTERN" value="FlujosArreglos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcesarEmpleados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tarea.ProcesarEmpleados" />
+      <module name="ParadigmasProgramacionII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tarea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VentasSemanales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tarea.VentasSemanales" />
+      <module name="ParadigmasProgramacionII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tarea.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,9 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LenguajesDeProgramacionMenu" />
-        <item itemvalue="Application.UsandoToArray" />
-        <item itemvalue="Application.PruebaList" />
+        <item itemvalue="Application.ProcesarEmpleados" />
+        <item itemvalue="Application.CalificacionesDoubleStream" />
+        <item itemvalue="Application.VentasSemanales" />
+        <item itemvalue="Application.OperacionesIntStream" />
+        <item itemvalue="Application.ConteoProgramacionDeclarativa" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +163,33 @@
       <workItem from="1676829109202" duration="10153000" />
       <workItem from="1676902746905" duration="215000" />
       <workItem from="1676907374880" duration="2971000" />
+      <workItem from="1676951426486" duration="850000" />
+      <workItem from="1676952320747" duration="29000" />
+      <workItem from="1676952365472" duration="3453000" />
+      <workItem from="1677078728564" duration="10000" />
+      <workItem from="1677078753737" duration="4664000" />
+      <workItem from="1677245290949" duration="3121000" />
+      <workItem from="1677510947384" duration="2653000" />
+      <workItem from="1677545825646" duration="5158000" />
+      <workItem from="1677551603825" duration="1871000" />
+      <workItem from="1677683405779" duration="7000" />
+      <workItem from="1677683436915" duration="5165000" />
+      <workItem from="1677719513972" duration="2086000" />
+      <workItem from="1678116174131" duration="3168000" />
+      <workItem from="1678119397421" duration="895000" />
+      <workItem from="1678228092136" duration="5438000" />
+      <workItem from="1678234413667" duration="3296000" />
+      <workItem from="1678237752651" duration="6000" />
+      <workItem from="1678237768033" duration="7000" />
+      <workItem from="1678237782601" duration="1089000" />
+      <workItem from="1678288029535" duration="6000" />
+      <workItem from="1678288052184" duration="3874000" />
+      <workItem from="1678893386512" duration="574000" />
+      <workItem from="1678893978126" duration="155000" />
+      <workItem from="1678896050732" duration="1405000" />
+      <workItem from="1678935688719" duration="642000" />
+      <workItem from="1679930525933" duration="3255000" />
+      <workItem from="1679957869316" duration="7997000" />
     </task>
     <task id="LOCAL-00001" summary="Practica Amigos">
       <created>1676848096390</created>
@@ -108,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676848096390</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Practicas">
+      <created>1676951490404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676951490404</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +225,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Acabados" />
     <MESSAGE value="Practica Amigos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica Amigos" />
+    <MESSAGE value="Practicas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practicas" />
   </component>
 </project>

@@ -54,16 +54,16 @@ public class FrmArrayListCelulares extends JFrame{
         lblTitulo.setHorizontalAlignment(SwingConstants.CENTER);
         add(lblTitulo);
 
-        JList<Object> JListAmigos = new JList<>();
-        JListAmigos.setPreferredSize(new Dimension(60, 30));
-        JListAmigos.setVisibleRowCount(5);  //muestra cinco filas a la vez
-        JListAmigos.setModel(modelo);
+        JList<Object> JListCelulares = new JList<>();
+        JListCelulares.setPreferredSize(new Dimension(60, 30));
+        JListCelulares.setVisibleRowCount(5);  //muestra cinco filas a la vez
+        JListCelulares.setModel(modelo);
 
         panelParteinferior = new JPanel();
         panelParteinferior.setBackground(Color.gray);
         panelParteinferior.setLayout(new GridLayout(1, 2, 20, 20));
         add(panelParteinferior);
-        panelParteinferior.add(add(new JScrollPane(JListAmigos)));
+        panelParteinferior.add(add(new JScrollPane(JListCelulares)));
 
         //Panel donde se colocaran los botones
         panelBotones = new JPanel();
