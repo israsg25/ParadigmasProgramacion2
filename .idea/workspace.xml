@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca5fbc89-2775-4c6b-99db-44984e71c4b2" name="Changes" comment="Practicas">
-      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorApellido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorEdad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorEdadNombre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorNombre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apuntes/ComparadorNombreEdad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apuntes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apuntes/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apuntes/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empleado/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empleado/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empleado/OrdenarPorDepartamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empleado/OrdenarPorDepartamentoYPorPuesto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empleado/OrdenarPorDepartamentoYPorSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empleado/OrdenarPorSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlujosArreglos/OperacionesIntStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Metodo_Shuffle/Carta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Metodo_Shuffle/FrmCartas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Metodo_Shuffle/MazoDeCartas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Metodos_Numericos/Ejercicio_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programacion_Declarativa/ConteoProgramacionDeclarativa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programacion_Declarativa/ConteoProgramacionImperativa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programacion_Declarativa/MostrarArregloImperativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tarea/CalificacionesDoubleStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tarea/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tarea/LenguajesDeProgramacionMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tarea/ProcesarEmpleados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tarea/VentasSemanales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea/ConsultasPersonas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practicas/FrmArrayListCelulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicas/FrmArrayListCelulares.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +49,7 @@
       <recent name="ComparadorPersona" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProcesarEmpleados">
+  <component name="RunManager" selected="Application.ConsultasPersonas">
     <configuration name="CalificacionesDoubleStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tarea.CalificacionesDoubleStream" />
       <module name="ParadigmasProgramacionII" />
@@ -90,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConteoProgramacionDeclarativa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programacion_Declarativa.ConteoProgramacionDeclarativa" />
+    <configuration name="ConsultasPersonas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tarea.ConsultasPersonas" />
       <module name="ParadigmasProgramacionII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Programacion_Declarativa.*" />
+          <option name="PATTERN" value="Tarea.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsultasPersonas" />
         <item itemvalue="Application.ProcesarEmpleados" />
         <item itemvalue="Application.CalificacionesDoubleStream" />
         <item itemvalue="Application.VentasSemanales" />
         <item itemvalue="Application.OperacionesIntStream" />
-        <item itemvalue="Application.ConteoProgramacionDeclarativa" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +163,8 @@
       <workItem from="1678935688719" duration="642000" />
       <workItem from="1679930525933" duration="3255000" />
       <workItem from="1679957869316" duration="7997000" />
+      <workItem from="1681139859097" duration="5079000" />
+      <workItem from="1681169227394" duration="11184000" />
     </task>
     <task id="LOCAL-00001" summary="Practica Amigos">
       <created>1676848096390</created>
