@@ -1,22 +1,22 @@
 package Tarea;
 // Eduardo Israel Chimal Casimiro
 
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-
-public class ConsultasPersonas {
-    public static void main(String[] args) {
-
-        List<Persona> personas = new ArrayList<>();
+public class ConsultasPersonas extends JFrame {
+    private List<Persona> personas = new ArrayList<>();
+    List<Persona> personasMilenarias = new ArrayList<>();
+    DefaultTableModel model = new DefaultTableModel();
+    //se declara el constructor del formulario
+    public ConsultasPersonas(){
+        initComponents();
+        llenarTabla();
+    }
+    private void llenarTabla(){
         personas.add(new Persona(0, "Roberto", "Tellez", 1995, 218, 6.55));
         personas.add(new Persona(1, "Maria", "González", 2013, 2, 5.67));
         personas.add(new Persona(2, "Juan", "Davila", 2003, 299, 1.99));
@@ -68,145 +68,129 @@ public class ConsultasPersonas {
         personas.add(new Persona(48, "Guillermo", "Tellez", 2018, 933, 2.61));
         personas.add(new Persona(49, "Juan", "García", 1998, 185, 9.06));
         personas.add(new Persona(50, "Roberto", "Suárez", 2005, 652, 4.66));
-        personas.add(new Persona(51, "Linda", "Juárez", 2022, 700, 9.96));
-        personas.add(new Persona(52, "Barbara", "González", 1995, 53, 8.64));
-        personas.add(new Persona(53, "Barbara", "Robles", 2010, 710, 6.09));
-        personas.add(new Persona(54, "Jaime", "Sánchez", 2015, 644, 6.65));
-        personas.add(new Persona(55, "Patricia", "Suárez", 2016, 393, 9.22));
-        personas.add(new Persona(56, "Barbara", "Davila", 2007, 946, 3.79));
-        personas.add(new Persona(57, "Juan", "Davila", 2010, 481, 4.05));
-        personas.add(new Persona(58, "Juan", "Robles", 1996, 285, 0.14));
-        personas.add(new Persona(59, "Elizabeth", "Munguia", 2007, 576, 8.01));
-        personas.add(new Persona(60, "Patricia", "Davila", 2004, 799, 1.62));
-        personas.add(new Persona(61, "Maria", "Suárez", 2000, 953, 9.55));
-        personas.add(new Persona(62, "Jaime", "Sánchez", 2016, 548, 4.92));
-        personas.add(new Persona(63, "Guillermo", "Davila", 1998, 497, 4.48));
-        personas.add(new Persona(64, "Patricia", "Davila", 2008, 117, 7.09));
-        personas.add(new Persona(65, "Guillermo", "Juárez", 2004, 200, 9.95));
-        personas.add(new Persona(66, "Elizabeth", "Méndez", 2022, 497, 4.08));
-        personas.add(new Persona(67, "Maria", "González", 2017, 142, 6.96));
-        personas.add(new Persona(68, "Guillermo", "Juárez", 2009, 810, 1.11));
-        personas.add(new Persona(69, "Roberto", "Tellez", 1994, 96, 5.86));
-        personas.add(new Persona(70, "Elizabeth", "Munguia", 2002, 509, 4.83));
-        personas.add(new Persona(71, "Barbara", "Robles", 2012, 482, 0.79));
-        personas.add(new Persona(72, "Guillermo", "Juárez", 2007, 331, 0.52));
-        personas.add(new Persona(73, "Juan", "Méndez", 1997, 152, 2.5));
-        personas.add(new Persona(74, "Linda", "Robles", 2018, 893, 3.0));
-        personas.add(new Persona(75, "Patricia", "González", 2007, 654, 6.92));
-        personas.add(new Persona(76, "Patricia", "Sánchez", 2011, 555, 6.3));
-        personas.add(new Persona(77, "Patricia", "Tellez", 2021, 182, 5.38));
-        personas.add(new Persona(78, "Barbara", "Tellez", 2019, 637, 5.25));
-        personas.add(new Persona(79, "Roberto", "González", 1995, 447, 0.89));
-        personas.add(new Persona(80, "Jaime", "Méndez", 2003, 258, 9.55));
-        personas.add(new Persona(81, "Juan", "Méndez", 2004, 835, 2.77));
-        personas.add(new Persona(82, "Patricia", "Davila", 2010, 773, 3.83));
-        personas.add(new Persona(83, "Miguel", "Suárez", 1995, 978, 4.5));
-        personas.add(new Persona(84, "Linda", "Méndez", 2003, 704, 2.5));
-        personas.add(new Persona(85, "Miguel", "Juárez", 1996, 379, 9.0));
-        personas.add(new Persona(86, "Linda", "Méndez", 2021, 416, 7.13));
-        personas.add(new Persona(87, "Elizabeth", "Juárez", 1999, 121, 4.88));
-        personas.add(new Persona(88, "Miguel", "Robles", 2009, 191, 2.81));
-        personas.add(new Persona(89, "Elizabeth", "Tellez", 2006, 402, 9.1));
-        personas.add(new Persona(90, "Linda", "Munguia", 1995, 688, 4.57));
-        personas.add(new Persona(91, "Guillermo", "Davila", 2006, 436, 8.31));
-        personas.add(new Persona(92, "Jaime", "Sánchez", 2019, 629, 1.77));
-        personas.add(new Persona(93, "Miguel", "Robles", 2007, 249, 6.28));
-        personas.add(new Persona(94, "Linda", "Robles", 2002, 732, 6.75));
-        personas.add(new Persona(95, "Patricia", "Suárez", 1996, 793, 8.14));
-        personas.add(new Persona(96, "Elizabeth", "Davila", 2020, 816, 2.2));
-        personas.add(new Persona(97, "Linda", "Suárez", 2009, 943, 9.67));
-        personas.add(new Persona(98, "Miguel", "Davila", 2022, 387, 1.76));
-        personas.add(new Persona(99, "Patricia", "González", 1994, 413, 8.33));
-
-        JPanel panel = new JPanel();
-        JTable tabla = new JTable();
-        JScrollPane scroll = new JScrollPane(tabla);
-        JButton btnVolver = new JButton("Volver al menú principal");
-
-        panel.add(scroll);
-        panel.add(btnVolver);
-
-        JFrame frame = new JFrame("Consultas Personas");
-        frame.add(panel);
-        frame.setSize(600, 400);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            int opcion = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la opción deseada: " +
-                    "\n1. Número de personas\n2. Suma de todos los salarios" +
-                    "\n3. Número de personas con un salario mayor a 500" +
-                    "\n4. Mayor salario entre las personas que tengan el apellido 'Robles'" +
-                    "\n5. Personas que nacieron después del 2000" +
-                    "\n6. Personas con coeficiente entre 5 y 10" +
-                    "\n7. Personas con apellido 'Robles'" +
-                    "\n8. Salir"));
-            switch (opcion) {
-                case 1:
-                    int numeroPersonas = personas.size();
-                    JOptionPane.showMessageDialog(null, "Número de personas: " + numeroPersonas);
-                    break;
-                case 2:
-                    int sumaSalarios = personas.stream().mapToInt(Persona::getSalario).sum();
-                    JOptionPane.showMessageDialog(null, "Suma de todos los salarios: " + sumaSalarios);
-                    break;
-                case 3:
-                    long numeroPersonasSalarioMayor500 = personas.stream().filter(p -> p.getSalario() > 500).count();
-                    JOptionPane.showMessageDialog(null, "Número de personas con un salario mayor a 500: " + numeroPersonasSalarioMayor500);
-                    break;
-                case 4:
-                    Optional<Integer> mayorSalarioRobles = personas.stream()
-                            .filter(p -> p.getApellido().equals("Robles"))
-                            .map(Persona::getSalario)
-                            .max(Comparator.naturalOrder());
-                    if (mayorSalarioRobles.isPresent()) {
-                        JOptionPane.showMessageDialog(null, "Mayor salario entre las personas que tengan el apellido 'Robles': " + mayorSalarioRobles.get());
-                    } else {
-                        JOptionPane.showMessageDialog(null, "No hay personas con el apellido 'Robles'");
-                    }
-                    break;
-                case 5:
-                    List<Persona> nacidosDespues2000 = personas.stream()
-                            .filter(p -> p.getAnioNacimieto() > 2000)
-                            .collect(Collectors.toList());
-                    actualizarTabla(tabla, nacidosDespues2000);
-                    break;
-                case 6:
-                    List<Persona> coeficienteEntre5y10 = personas.stream()
-                            .filter(p -> p.getCoeficiente() >= 5 && p.getCoeficiente() <= 10)
-                            .collect(Collectors.toList());
-                    actualizarTabla(tabla, coeficienteEntre5y10);
-                    break;
-                case 7:
-                    List<Persona> apellidosRobles = personas.stream()
-                            .filter(p -> p.getApellido().equals("Robles"))
-                            .collect(Collectors.toList());
-                    actualizarTabla(tabla, apellidosRobles);
-                    break;
-                case 8:
-                    System.exit(0);
-                    break;
-            }
-
-            btnVolver.addActionListener(e -> {
-                frame.setVisible(false);
-                main(args);
-            });
-
-            frame.setVisible(true);
+        personas.add(new Persona(51, "Linda", "Juárez", 2022, 700, 9.96));personas.add(new Persona(52, "Barbara", "González", 1995, 53, 8.64));personas.add(new Persona(53, "Barbara", "Robles", 2010, 710, 6.09));personas.add(new Persona(54, "Jaime", "Sánchez", 2015, 644, 6.65));personas.add(new Persona(55, "Patricia", "Suárez", 2016, 393, 9.22));personas.add(new Persona(56, "Barbara", "Davila", 2007, 946, 3.79));personas.add(new Persona(57, "Juan", "Davila", 2010, 481, 4.05));personas.add(new Persona(58, "Juan", "Robles", 1996, 285, 0.14));personas.add(new Persona(59, "Elizabeth", "Munguia", 2007, 576, 8.01));personas.add(new Persona(60, "Patricia", "Davila", 2004, 799, 1.62));personas.add(new Persona(61, "Maria", "Suárez", 2000, 953, 9.55));personas.add(new Persona(62, "Jaime", "Sánchez", 2016, 548, 4.92));personas.add(new Persona(63, "Guillermo", "Davila", 1998, 497, 4.48));personas.add(new Persona(64, "Patricia", "Davila", 2008, 117, 7.09));personas.add(new Persona(65, "Guillermo", "Juárez", 2004, 200, 9.95));personas.add(new Persona(66, "Elizabeth", "Méndez", 2022, 497, 4.08));personas.add(new Persona(67, "Maria", "González", 2017, 142, 6.96));personas.add(new Persona(68, "Guillermo", "Juárez", 2009, 810, 1.11));personas.add(new Persona(69, "Roberto", "Tellez", 1994, 96, 5.86));personas.add(new Persona(70, "Elizabeth", "Munguia", 2002, 509, 4.83));personas.add(new Persona(71, "Barbara", "Robles", 2012, 482, 0.79));personas.add(new Persona(72, "Guillermo", "Juárez", 2007, 331, 0.52));personas.add(new Persona(73, "Juan", "Méndez", 1997, 152, 2.5));personas.add(new Persona(74, "Linda", "Robles", 2018, 893, 3.0));personas.add(new Persona(75, "Patricia", "González", 2007, 654, 6.92));personas.add(new Persona(76, "Patricia", "Sánchez", 2011, 555, 6.3));personas.add(new Persona(77, "Patricia", "Tellez", 2021, 182, 5.38));personas.add(new Persona(78, "Barbara", "Tellez", 2019, 637, 5.25));personas.add(new Persona(79, "Roberto", "González", 1995, 447, 0.89));personas.add(new Persona(80, "Jaime", "Méndez", 2003, 258, 9.55));personas.add(new Persona(81, "Juan", "Méndez", 2004, 835, 2.77));personas.add(new Persona(82, "Patricia", "Davila", 2010, 773, 3.83));personas.add(new Persona(83, "Miguel", "Suárez", 1995, 978, 4.5));personas.add(new Persona(84, "Linda", "Méndez", 2003, 704, 2.5));personas.add(new Persona(85, "Miguel", "Juárez", 1996, 379, 9.0));personas.add(new Persona(86, "Linda", "Méndez", 2021, 416, 7.13));personas.add(new Persona(87, "Elizabeth", "Juárez", 1999, 121, 4.88));personas.add(new Persona(88, "Miguel", "Robles", 2009, 191, 2.81));personas.add(new Persona(89, "Elizabeth", "Tellez", 2006, 402, 9.1));personas.add(new Persona(90, "Linda", "Munguia", 1995, 688, 4.57));personas.add(new Persona(91, "Guillermo", "Davila", 2006, 436, 8.31));personas.add(new Persona(92, "Jaime", "Sánchez", 2019, 629, 1.77));personas.add(new Persona(93, "Miguel", "Robles", 2007, 249, 6.28));personas.add(new Persona(94, "Linda", "Robles", 2002, 732, 6.75));
+        personas.add(new Persona(95, "Patricia", "Suárez", 1996, 793, 8.14));personas.add(new Persona(96, "Elizabeth", "Davila", 2020, 816, 2.2));personas.add(new Persona(97, "Linda", "Suárez", 2009, 943, 9.67));personas.add(new Persona(98, "Miguel", "Davila", 2022, 387, 1.76));personas.add(new Persona(99, "Patricia", "González", 1994, 413, 8.33));
+        personasMilenarias = personas.stream()
+                .filter(p -> p.getAnioNacimieto() > 2000)
+                .collect(Collectors.toList());
+        //se pasan los datos de personasMilenarias a la JTable
+        Object[] fila = new Object[6];
+        for (Persona aux : personasMilenarias){
+            fila[0] = aux.getId();
+            fila[1] = aux.getNombre();
+            fila[2] = aux.getApellido();
+            fila[3] = aux.getAnioNacimieto();
+            fila[4] = aux.getSalario();
+            fila[5] = aux.getCoeficiente();
+            model.addRow(fila);
         }
-
-        private static void actualizarTabla(JTable tabla, List<Persona> personas) {
-            Object[][] datos = new Object[personas.size()][6];
-            String[] titulos = {"ID", "Nombre", "Apellido", "Año de nacimiento", "Salario", "Coeficiente"};
-
-            for (int i = 0; i < personas.size(); i++) {
-                datos[i][0] = personas.get(i).getId();
-                datos[i][1] = personas.get(i).getNombre();
-                datos[i][2] = personas.get(i).getApellido();
-                datos[i][3] = personas.get(i).getAnioNacimieto();
-                datos[i][4] = personas.get(i).getSalario();
-                datos[i][5] = personas.get(i).getCoeficiente();
-            }
-            tabla.setModel(new javax.swing.table.DefaultTableModel(datos,titulos));
-
-        }
+    }
+    //se declara un metodo para inicializar los componentes del formulario
+    private void initComponents(){
+        JPanel panel = new JPanel(new BorderLayout());
+        JPanel panelBotones = new JPanel(new GridLayout(3, 3));
+        JPanel panelTabla = new JPanel(new BorderLayout());
+        JButton btnNumeroPersonas = new JButton("Ver numero de personas");
+        btnNumeroPersonas.addActionListener(e -> {
+            long numeroPeronas = personas.stream()
+                    .count();
+            JOptionPane.showMessageDialog(this, "Numero de personas: " + numeroPeronas);
+        });
+        panelBotones.add(btnNumeroPersonas);
+        JButton btnSumaTodosSalarios = new JButton("Suma de todos los salarios");
+        btnSumaTodosSalarios.addActionListener(e -> {
+            double sumaSalarios = personas.stream()
+                    .mapToDouble(persona -> persona.getSalario())
+                    .sum();
+            JOptionPane.showMessageDialog(this, "Suma de todos los salarios:" +
+                    sumaSalarios);
+        });
+        panelBotones.add(btnSumaTodosSalarios);
+        JButton btnSCantidadPersonasSalarioMayor500 = new JButton("Cantidad de " +
+                "personas con un salario mayor a 500");
+        btnSCantidadPersonasSalarioMayor500.addActionListener(e -> {
+            long cantidadMayor500 = personas.stream()
+                    .filter(persona -> persona.getSalario() > 500)
+                    .count();
+            JOptionPane.showMessageDialog(this, "cantidad de personas con un salario " +
+                    "mayor a 500:" + cantidadMayor500);
+        });
+        panelBotones.add(btnSCantidadPersonasSalarioMayor500);
+        JButton btnMayorSalarioRobles = new JButton("Mayor salario entre las personas que " +
+                "tengan el apellido Robles");
+        btnMayorSalarioRobles.addActionListener(e -> {
+            double mayorSalario = personas.stream()
+                    .filter(persona -> persona.getApellido().equals("Robles"))
+                    .mapToDouble(persona -> persona.getSalario())
+                    .max().getAsDouble();
+            JOptionPane.showMessageDialog(this, "Mayor salario entre las personas que " +
+                    "tengan el apellido Robles:" + mayorSalario);
+        });
+        panelBotones.add(btnMayorSalarioRobles);
+        JButton btnPersonasDespues2000 = new JButton("personas que nacieron después del año 2000");
+        btnPersonasDespues2000.addActionListener(e -> {
+            personas = personas.stream()
+                    .filter(p -> p.getAnioNacimieto() > 2000)
+                    .collect(Collectors.toList());
+            llenarTabla();
+            setTitle("personas que nacieron despues del año 2000");
+        });
+        panelBotones.add(btnPersonasDespues2000);
+        JButton btnCoeficiente5y10 = new JButton("Personas con coeficiente entre 5 y 10");
+        btnCoeficiente5y10.addActionListener(e -> {
+            personas = personas.stream()
+                    .filter(p -> p.getCoeficiente() >= 5 && p.getCoeficiente() <= 10)
+                    .collect(Collectors.toList());
+            llenarTabla();
+            setTitle("personas con coeficiente entre 5 y 10");
+        });
+        panelBotones.add(btnCoeficiente5y10);
+        JButton btnLosRobles = new JButton("personas con apellido Robles");
+        btnLosRobles.addActionListener(e -> {
+            personas = personas.stream()
+                    .filter(p -> p.getApellido().equals("Robles")).collect(Collectors.toList());
+            llenarTabla();
+            setTitle("personas con apellido Robles");
+        });
+        panelBotones.add(btnLosRobles);
+        JButton btnSalir = new JButton("Salir");
+        btnSalir.addActionListener(e -> {
+            System.exit(0);
+        });
+        panelBotones.add(btnSalir);
+        //Crea una tabla
+        JTable table = new JTable(model);
+        model.addColumn("id");
+        model.addColumn("Nombre");
+        model.addColumn("Apellido");
+        model.addColumn("Año Nacimiento");
+        model.addColumn("Salario");
+        model.addColumn("Coeficiente");
+        //Agregue el encabezado de la tabla a la parte superior del contenedor
+        //(cuando se usa un contenedor intermedio comun para agregar una tabla,
+        //el encabezado y el contenido de la tabla deben agregarse por separado)
+        JScrollPane scrollPane = new JScrollPane(panel);
+        scrollPane.setHorizontalScrollBarPolicy(
+                JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+        panelTabla.add(table, BorderLayout.CENTER);
+        panelTabla.add(table.getTableHeader(), BorderLayout.NORTH);
+        //Agregue el contenido de la tabla al centro del contenedor
+        panel.add(panelBotones, BorderLayout.NORTH);
+        panel.add(panelTabla, BorderLayout.CENTER);
+        pack();
+        setContentPane(scrollPane);
+        //caracteristicas de la ventana
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setSize(700, 600);
+        setTitle("Personas");
+        setLocationRelativeTo(null);
+    }
+    //se declara el metodo main para ejecutar el formulario
+    public static void main(String[] args){
+        new ConsultasPersonas().setVisible(true);
+    }
 }
+
+
+
 

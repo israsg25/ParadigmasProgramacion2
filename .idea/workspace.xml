@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca5fbc89-2775-4c6b-99db-44984e71c4b2" name="Changes" comment="Practicas">
-      <change afterPath="$PROJECT_DIR$/src/Tarea/ConsultasPersonas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tarea/Persona.java" afterDir="false" />
+    <list default="true" id="ca5fbc89-2775-4c6b-99db-44984e71c4b2" name="Changes" comment="personas finalizado">
+      <change afterPath="$PROJECT_DIR$/src/AgrupacionDeObjetos/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AgrupacionDeObjetos/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AgrupacionDeObjetos/MuertesEverest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejecucion_Hilos/ContadorAdelante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejecucion_Hilos/ContadorAtras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejecucion_Hilos/HilosContadoresPrueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejecucion_Hilos/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejecucion_Normal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EjercicioFormularioHilos/FormularioHilos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HilosConChat/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HilosConChat/Familia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HilosConChat/Pregunta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practicas/ContadorDePalabras/ContadorDePalabras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practicas/ContadorDePalabras/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practicas/ContadorDePalabras/FrmConteoPalabras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Predicados/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Predicados/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VideoJuegos/ConsultasVideojuegos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VideoJuegos/Videojuego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VideoJuegos/ventas_videojuegos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hilos/ArticuloMinorista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hilos/Dormido/EscrituraLenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hilos/Dormido/Frases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hilos/Dormido/FrmNumeroAumentar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hilos/Dormido/PruebaHiloSleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hilos/Dormido/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hilos/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hilos/Metodos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea/ConsultasPersonas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea/ConsultasPersonas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +65,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/edchi/IdeaProjects/ParadigmasProgramacionII/src/VideoJuegos&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\edchi\IdeaProjects\ParadigmasProgramacionII\src\VideoJuegos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\edchi\IdeaProjects\ParadigmasProgramacionII\src\Metodo_Shuffle" />
     </key>
@@ -49,13 +80,13 @@
       <recent name="ComparadorPersona" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsultasPersonas">
-    <configuration name="CalificacionesDoubleStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tarea.CalificacionesDoubleStream" />
+  <component name="RunManager" selected="Application.Familia">
+    <configuration name="Chat (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HilosConChat.Chat" />
       <module name="ParadigmasProgramacionII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tarea.*" />
+          <option name="PATTERN" value="HilosConChat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultasPersonas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tarea.ConsultasPersonas" />
+    <configuration name="Chat (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HilosConChat.Chat" />
       <module name="ParadigmasProgramacionII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tarea.*" />
+          <option name="PATTERN" value="HilosConChat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperacionesIntStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FlujosArreglos.OperacionesIntStream" />
+    <configuration name="Chat (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HilosConChat.Chat" />
       <module name="ParadigmasProgramacionII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FlujosArreglos.*" />
+          <option name="PATTERN" value="HilosConChat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcesarEmpleados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tarea.ProcesarEmpleados" />
+    <configuration name="Chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HilosConChat.Chat" />
       <module name="ParadigmasProgramacionII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tarea.*" />
+          <option name="PATTERN" value="HilosConChat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VentasSemanales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tarea.VentasSemanales" />
+    <configuration name="Familia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HilosConChat.Familia" />
       <module name="ParadigmasProgramacionII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tarea.*" />
+          <option name="PATTERN" value="HilosConChat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsultasPersonas" />
-        <item itemvalue="Application.ProcesarEmpleados" />
-        <item itemvalue="Application.CalificacionesDoubleStream" />
-        <item itemvalue="Application.VentasSemanales" />
-        <item itemvalue="Application.OperacionesIntStream" />
+        <item itemvalue="Application.Familia" />
+        <item itemvalue="Application.Chat" />
+        <item itemvalue="Application.Chat (4)" />
+        <item itemvalue="Application.Chat (3)" />
+        <item itemvalue="Application.Chat (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +196,32 @@
       <workItem from="1679957869316" duration="7997000" />
       <workItem from="1681139859097" duration="5079000" />
       <workItem from="1681169227394" duration="11184000" />
+      <workItem from="1681181791466" duration="255000" />
+      <workItem from="1681315966421" duration="1434000" />
+      <workItem from="1681530837393" duration="12202000" />
+      <workItem from="1681744292740" duration="686000" />
+      <workItem from="1681917680203" duration="4657000" />
+      <workItem from="1681941330722" duration="3438000" />
+      <workItem from="1682350851640" duration="3817000" />
+      <workItem from="1682373857948" duration="3245000" />
+      <workItem from="1682379587630" duration="82000" />
+      <workItem from="1682379690081" duration="13000" />
+      <workItem from="1682379759295" duration="10000" />
+      <workItem from="1682379808187" duration="10247000" />
+      <workItem from="1682428051413" duration="94000" />
+      <workItem from="1682525722554" duration="1077000" />
+      <workItem from="1682545540957" duration="9981000" />
+      <workItem from="1683165395259" duration="1979000" />
+      <workItem from="1683559437801" duration="3370000" />
+      <workItem from="1683586832862" duration="4755000" />
+      <workItem from="1683845142778" duration="5075000" />
+      <workItem from="1683924268676" duration="5226000" />
+      <workItem from="1684339030571" duration="595000" />
+      <workItem from="1684365750001" duration="1798000" />
+      <workItem from="1684369375077" duration="6993000" />
+      <workItem from="1684377137624" duration="537000" />
+      <workItem from="1684767998930" duration="594000" />
+      <workItem from="1684986408756" duration="4018000" />
     </task>
     <task id="LOCAL-00001" summary="Practica Amigos">
       <created>1676848096390</created>
@@ -180,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676951490404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="personas finalizado">
+      <created>1681181965124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681181965124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +265,7 @@
     <MESSAGE value="Acabados" />
     <MESSAGE value="Practica Amigos" />
     <MESSAGE value="Practicas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practicas" />
+    <MESSAGE value="personas finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="personas finalizado" />
   </component>
 </project>
